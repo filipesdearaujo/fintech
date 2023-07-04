@@ -1,0 +1,87 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.header-bg {
+    backdrop-filter: blur(40px);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+body {
+    background: url("images/pexels-george-milton-6954086.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-cadastro {
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+    max-width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.title{
+    color: white;
+}
+
+.btn-entrar {
+    margin: 15px auto;
+}
+
+.btn-entrar button {
+    background-color: #F2CD5C;
+    border:none;
+    color:black;
+}
+
+.btn-entrar button:hover {
+    background-color: white;
+    color:black;
+    border: none;
+}
+
+.letras-cadastro{
+    color: white;
+    text-align: center; 
+    margin: 30px;
+}
+
+i {
+    color:#F2CD5C;
+    text-align: center;
+    font-size:25px;
+}
+
+i:hover {
+    color: white;
+    transition: .5s ease;
+}
+
+label{
+    color:#F2CD5C;
+    margin-bottom: 3px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.navbar-brand{
+    color:#F2CD5C;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.letras-menu li a{
+    color:white;
+}
